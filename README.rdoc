@@ -3,6 +3,23 @@
 snail is an interactive IRC client in an early phase of development.
 Nothing to see here, move along!
 
+= usage
+
+see
+  ruby bin/snail.rb -h
+
+or have a .snail.config in your home directory
+that looks like this:
+  server:
+    - host
+    - port
+  user: yourusername
+  password: yourpassword
+
+The options are not optional...
+Oh, and after the connection registration, you're on your own
+when it comes to the IRC protocol.
+
 == Copyright
 
 Copyright (c) 2010 sMAshdot. See LICENSE for details.

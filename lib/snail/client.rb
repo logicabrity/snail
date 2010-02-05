@@ -1,5 +1,6 @@
 require 'observer'
 require 'thread'
+require 'readline'
 
 class Client
   def initialize(server, port, user, password)
@@ -21,7 +22,8 @@ class Client
   
   def get_user_input
     loop do
-      send gets.chomp
+      line = Readline.readline('', true)
+      send line
     end
   end
 

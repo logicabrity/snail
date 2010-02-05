@@ -5,6 +5,3 @@ $LOAD_PATH.unshift(libdir) unless
 
 require 'snail/connection'
 require 'snail/client'
-
-snail = Client.new("server", 6666, "username", "pass")
-snail.run
