@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "snail"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A client for the IRC protocol.}
+    gem.description = %Q{A client to the IRC network. Interactive, but in an early phase of development.}
     gem.email = "mail@marc-antonio.de"
     gem.homepage = "http://github.com/sMAshdot/snail"
     gem.authors = ["sMAshdot"]
